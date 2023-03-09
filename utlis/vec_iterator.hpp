@@ -50,14 +50,14 @@ namespace ft
 				return (*this);
 			}
 			vec_iterator  operator++(int){
-				vec_iterator(tmp) = *this; _it += 1; return  tmp;
+				vec_iterator tmp = *this; _it += 1; return  tmp;
 			}
 			vec_iterator& operator--(){
 				_it--;
 				return (*this);
 			}
 			vec_iterator  operator--(int){
-				vec_iterator(tmp) = *this; _it--; return  tmp;
+				vec_iterator tmp = *this; _it--; return  tmp;
 			}
 			vec_iterator  operator+ (difference_type n) const{
 				return vec_iterator(_it + n);
