@@ -23,4 +23,11 @@ Our stack container will use our vector class as default underlying container(*i
 
   
  ## VECTOR
- Similar to how we start with stack, refer vector's spurce code or https://cplusplus.com/reference/vector/vector/ to start.
+ Similar to how we started with stack, refer vector's source code or https://cplusplus.com/reference/vector/vector/ to start.
+ 
+ Some of the topics to read:
+ *  iterators : https://www.geeksforgeeks.org/iterators-c-stl/
+ *  allocators: https://www.geeksforgeeks.org/stdallocator-in-cpp-with-examples/
+ *  enable_if : https://cplusplus.com/reference/type_traits/enable_if/
+ *  SFINAE    : https://www.geeksforgeeks.org/substitution-failure-is-not-an-error-sfinae-in-cpp/
+ 
