@@ -72,6 +72,6 @@ void check_range(Iter first, Iter last) {
 	iterator_validity(first, last, typename ft::iterator_traits<Iter>::iterator_category());
 }
 
-}    // namespace ft
+}    
 
-#endif    // ITERATOR_VALIDITY_HPP
+#endif   
